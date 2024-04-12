@@ -6,7 +6,7 @@ Unofficial [OpenVoice](https://github.com/myshell-ai/OpenVoice) support for [Com
 - **2024/04/12:** Added ComfyUI nodes and workflow examples
 
 ## Basic Workflow
-This [workflow](examples/workflow.json) shows the basic usages on (1) text-to-speech (TTS) and (2) speech-to-speech (STS) using reference voice.
+This [workflow](examples/workflow.json) shows the basic usages on (1) text-to-speech (TTS) and (2) speech-to-speech (STS) using reference voice. NOTE: `Chinese` language only supports `default` style.
 
  ![](examples/workflow.jpg)
 
