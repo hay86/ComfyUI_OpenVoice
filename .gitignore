@@ -4,7 +4,6 @@ processed
 outputs
 checkpoints
 trash
-examples*
 .env
 build
 *.egg-info/
