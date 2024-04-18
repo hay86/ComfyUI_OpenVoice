@@ -11,7 +11,7 @@ This [workflow](examples/workflow.json) shows the basic usages on (1) text-to-sp
  ![](examples/workflow.jpg)
 
 ## Installation
-- (WIP) Install from ComfyUI Manager (search for `openvoice`, make sure `ffmpeg` is installed)
+- Install from ComfyUI Manager (search for `openvoice`, make sure `ffmpeg` is installed)
 
 - Download or git clone this repository into the ComfyUI/custom_nodes/ directory and run:
 ```
