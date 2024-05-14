@@ -3,6 +3,7 @@
 Unofficial [OpenVoice](https://github.com/myshell-ai/OpenVoice) support for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 
 ## Important Updates
+- **2024/05/14:** Added OpenVoice V2 support (needs extra installation)
 - **2024/04/12:** Added ComfyUI nodes and workflow examples
 
 ## Basic Workflow
@@ -17,6 +18,13 @@ This [workflow](examples/workflow.json) shows the basic usages on (1) text-to-sp
 ```
 sudo apt install ffmpeg
 pip install -r requirements.txt
+```
+
+## Extra Installation for V2
+```
+apt get install mecab libmecab-dev
+pip install git+https://github.com/myshell-ai/MeloTTS.git
+python -m unidic download
 ```
 
 ## Download Checkpoints
