@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_openvoice"
+description = "Unofficial implementation of [a/OpenVoice](https://github.com/myshell-ai/OpenVoice) for ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "librosa", "pydub", "faster-whisper", "whisper-timestamped", "inflect", "unidecode", "eng_to_ipa", "pypinyin", "jieba", "cn2an", "wavmark", "huggingface_hub", "soundfile"]
+
+[project.urls]
+Repository = "https://github.com/hay86/ComfyUI_OpenVoice"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_OpenVoice"
+Icon = ""
