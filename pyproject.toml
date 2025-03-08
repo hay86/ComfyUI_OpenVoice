@@ -2,7 +2,7 @@
 name = "comfyui_openvoice"
 description = "Unofficial implementation of [a/OpenVoice](https://github.com/myshell-ai/OpenVoice) for ComfyUI"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["torch", "librosa", "pydub", "faster-whisper", "whisper-timestamped", "inflect", "unidecode", "eng_to_ipa", "pypinyin", "jieba", "cn2an", "wavmark", "huggingface_hub", "soundfile"]
 
 [project.urls]
